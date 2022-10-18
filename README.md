@@ -1,5 +1,10 @@
 # Brew
 
+### speedtest
+```bash
+speedtest --server-id=50679
+```
+
 ### mpv
 ```bash
 mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
