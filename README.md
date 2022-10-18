@@ -5,6 +5,12 @@
 speedtest --server-id=50679
 ```
 
+### iCloud
+```bash
+cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/
+find . -type f -exec brctl evict {} \;
+```
+
 ### mpv
 ```bash
 mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
