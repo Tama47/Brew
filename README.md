@@ -28,19 +28,19 @@ yt-dlp --cookies hidive.txt --list-subs
 ```bash
 yt-dlp --cookies crunchyroll.txt --list-subs 
 ```
-Download Video + Subs:
+Download Video and Subs:
 ```bash
 yt-dlp --cookies crunchyroll.txt --write-sub --sub-langs en-US --sub-format ass 
 ```
 ```bash
-yt-dlp --cookies hidive.txt --write-sub --sub-langs english-subs --sub-format ass 
+yt-dlp --cookies hidive.txt --write-sub --sub-langs english-subs --sub-format vtt 
 ```
-Download Video Embed Subs:
+Download Video and Embed Subs:
 ```bash
 yt-dlp --cookies crunchyroll.txt --embed-subs --sub-langs en-US --sub-format ass 
 ```
 ```bash
-yt-dlp --cookies hidive.txt --embed-subs --sub-langs english-subs --sub-format ass 
+yt-dlp --cookies hidive.txt --embed-subs --sub-langs english-subs --sub-format vtt 
 ```
 Download Subs Only:
 ```bash
