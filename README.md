@@ -4,6 +4,9 @@
 ```bash
 speedtest --server-id=50679
 ```
+```bash
+curl ifconfig.me && echo
+```
 
 ### iCloud
 ```bash
