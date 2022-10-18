@@ -2,10 +2,10 @@
 
 ### speedtest
 ```bash
-speedtest --server-id=50679
+curl ifconfig.me && echo
 ```
 ```bash
-curl ifconfig.me && echo
+speedtest --server-id=50679
 ```
 
 ### iCloud
