@@ -14,6 +14,7 @@ mpv --ytdl-raw-options=cookies=hidive.txt --slang=english-subs
 ```
 
 ### yt-dlp
+Download video
 ```bash
 yt-dlp --cookies hidive.txt 
 ```
