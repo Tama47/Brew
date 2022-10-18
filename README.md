@@ -13,9 +13,6 @@ mpv --ytdl-raw-options=cookies=hidive.txt --slang=english-subs
 yt-dlp --cookies hidive.txt --list-subs 
 ```
 ```bash
-yt-dlp --cookies hidive.txt --list-subs 
-```
-```bash
 yt-dlp --cookies crunchyroll.txt --list-subs 
 ```
 ```bash
