@@ -10,7 +10,7 @@ mpv --ytdl-raw-options=cookies=hidive.txt --slang=english-subs
 
 ### yt-dlp
 ```bash
-yt-dlp --cookies hidive.txt --list-subs
+yt-dlp --cookies hidive.txt --list-subs 
 ```
 ```bash
 yt-dlp --cookies hidive.txt --list-subs 
