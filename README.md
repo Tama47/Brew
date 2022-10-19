@@ -44,3 +44,7 @@ yt-dlp --cookies crunchyroll.txt --skip-download --write-sub --sub-langs en-US -
 ```bash
 yt-dlp --cookies hidive.txt --skip-download --write-sub --sub-langs english-subs --sub-format vtt 
 ```
+Download Best Video and Audio
+```bash
+yt-dlp --merge-output-format mp4 -f "bestvideo+bestaudio[ext=m4a]/best" --embed-thumbnail --add-metadata 
+```
