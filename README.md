@@ -8,6 +8,11 @@ mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US
 mpv --ytdl-raw-options=cookies=hidive.txt --slang=english-subs 
 ```
 
+### Extract Subs
+```bash
+ffmpeg -i .ass
+```
+
 ### yt-dlp
 Download Video:
 ```bash
