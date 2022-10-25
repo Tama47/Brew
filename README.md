@@ -6,15 +6,15 @@ curl ifconfig.me && echo
 speedtest --server-id=50679
 ```
 
-### mpv
-```bash
-mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
-```
-
 ### ffmpeg
 Extract Subs:
 ```bash
 ffmpeg -i subs.ass
+```
+
+### mpv
+```bash
+mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
 ```
 
 ### yt-dlp
