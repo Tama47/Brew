@@ -1,20 +1,14 @@
 # Brew
 
+### mpv
+```bash
+mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
+```
+
 ### speedtest
 ```bash
 curl ifconfig.me && echo
 speedtest --server-id=50679
-```
-
-### ffmpeg
-Extract Subs:
-```bash
-ffmpeg -i subs.ass
-```
-
-### mpv
-```bash
-mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
 ```
 
 ### yt-dlp
@@ -41,4 +35,9 @@ yt-dlp --cookies crunchyroll.txt --skip-download --write-sub --sub-langs en-US -
 Download Best Youtube Video and Audio
 ```bash
 yt-dlp --merge-output-format mp4 -f "bestvideo+bestaudio[ext=m4a]/best" --embed-thumbnail --add-metadata 
+```
+### ffmpeg
+Extract Subs:
+```bash
+ffmpeg -i subs.ass
 ```
