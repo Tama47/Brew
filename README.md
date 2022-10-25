@@ -2,9 +2,7 @@
 
 ### speedtest
 ```bash
-```bash
 curl ifconfig.me && echo
-```
 speedtest --server-id=50679
 ```
 
