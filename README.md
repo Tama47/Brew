@@ -7,6 +7,7 @@ speedtest --server-id=50679
 ```
 
 ### mpv
+mpv ytdl
 ```bash
 mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
 ```
