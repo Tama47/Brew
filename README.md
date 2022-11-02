@@ -10,6 +10,10 @@ speedtest --server-id=50679
 ```bash
 mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
 ```
+Open mpv:
+```bash
+mpv --player-operation-mode=pseudo-gui
+```
 
 ### ffmpeg
 Extract Subs:
