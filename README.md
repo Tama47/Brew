@@ -9,7 +9,7 @@ speedtest --server-id=50679
 ### mpv
 mpv ytdl
 ```bash
-mpv --ytdl-raw-options=cookies=chrome --slang=en-US 
+mpv --ytdl-raw-options=cookies-from-browser=chrome --slang=en-US 
 ```
 Open mpv:
 ```bash
