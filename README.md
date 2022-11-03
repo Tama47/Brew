@@ -13,7 +13,7 @@ mpv --ytdl-raw-options=cookies-from-browser=chrome --slang=en-US
 ```
 Open mpv:
 ```bash
-mpv --ytdl-raw-options=cookies-from-browser=chrome --player-operation-mode=pseudo-gui
+mpv --ytdl-raw-options=cookies-from-browser=chrome --slang=en-US --player-operation-mode=pseudo-gui
 ```
 
 ### ffmpeg
