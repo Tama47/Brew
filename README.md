@@ -47,3 +47,7 @@ Download Best Youtube Video and Audio
 ```bash
 yt-dlp --merge-output-format mp4 -f "bestvideo+bestaudio[ext=m4a]/best" --embed-thumbnail --add-metadata 
 ```
+Download Audio:
+```bash
+yt-dlp --extract-audio --audio-format mp3
+```
