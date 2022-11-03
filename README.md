@@ -9,7 +9,7 @@ speedtest --server-id=50679
 ### mpv
 mpv ytdl
 ```bash
-mpv --ytdl-raw-options=cookies=crunchyroll.txt --slang=en-US 
+mpv --ytdl-raw-options=cookies=chrome --slang=en-US 
 ```
 Open mpv:
 ```bash
@@ -25,29 +25,29 @@ ffmpeg -i subs.ass
 ### yt-dlp
 Download Video:
 ```bash
-yt-dlp --cookies crunchyroll.txt 
+yt-dlp --cookies-from-browser chrome 
 ```
 List Subs:
 ```bash
-yt-dlp --cookies crunchyroll.txt --list-subs 
+yt-dlp --cookies-from-browser --list-subs 
 ```
 Download Video and Subs:
 ```bash
-yt-dlp --cookies crunchyroll.txt --write-sub --sub-langs en-US --sub-format ass 
+yt-dlp --cookies-from-browser --write-sub --sub-langs en-US --sub-format ass 
 ```
 Download Video and Embed Subs:
 ```bash
-yt-dlp --cookies crunchyroll.txt --embed-subs --sub-langs en-US --sub-format ass 
+yt-dlp --cookies-from-browser --embed-subs --sub-langs en-US --sub-format ass 
 ```
 Download Subs Only:
 ```bash
-yt-dlp --cookies crunchyroll.txt --skip-download --write-sub --sub-langs en-US --sub-format ass 
+yt-dlp --cookies-from-browser --skip-download --write-sub --sub-langs en-US --sub-format ass 
 ```
 Download Best Youtube Video and Audio
 ```bash
-yt-dlp --merge-output-format mp4 -f "bestvideo+bestaudio[ext=m4a]/best" --embed-thumbnail --add-metadata 
+yt-dlp --cookies-from-browser --merge-output-format mp4 -f "bestvideo+bestaudio[ext=m4a]/best" --embed-thumbnail --add-metadata 
 ```
 Download Audio:
 ```bash
-yt-dlp --extract-audio --audio-format mp3 
+yt-dlp --cookies-from-browser --extract-audio --audio-format mp3 
 ```
