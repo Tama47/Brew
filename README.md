@@ -35,6 +35,11 @@ Download Video and Subs:
 ```bash
 yt-dlp --cookies-from-browser chrome --write-sub --sub-langs en-US --sub-format ass 
 ```
+Download from list:
+```bash
+yt-dlp --cookies-from-browser chrome --write-sub --sub-langs en-US --sub-format ass -a /Users/tama/Documents/list.txt
+```
+
 Download Video and Embed Subs:
 ```bash
 yt-dlp --cookies-from-browser chrome --embed-subs --sub-langs en-US --sub-format ass 
