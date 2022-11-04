@@ -50,7 +50,7 @@ yt-dlp --cookies-from-browser chrome --skip-download --write-sub --sub-langs en-
 ```
 Download Best Youtube Video and Audio
 ```bash
-yt-dlp --cookies-from-browser chrome --merge-output-format mp4 -f "bestvideo+bestaudio[ext=m4a]/best" --embed-thumbnail --add-metadata 
+yt-dlp --cookies-from-browser chrome -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]" --embed-thumbnail --add-metadata 
 ```
 Download Audio:
 ```bash
