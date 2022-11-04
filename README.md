@@ -29,7 +29,7 @@ yt-dlp
 ```
 List Format:
 ```bash
-yt-dlp -F
+yt-dlp -F 
 ```
 List Subs:
 ```bash
