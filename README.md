@@ -30,7 +30,7 @@ Download Subs Only:
 ```bash
 yt-dlp --skip-download --write-sub 
 ```
-Download from list:
+Download from a list:
 ```bash
 yt-dlp --embed-thumbnail -a list.txt
 ```
