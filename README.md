@@ -42,6 +42,10 @@ Download Subtitles Only:
 ```bash
 yt-dlp --skip-download --write-sub 
 ```
+Download Thumbnail Only:
+```bash
+yt-dlp --skip-download --embed-thumbnail 
+```
 Download Audio Only (MP3):
 ```bash
 yt-dlp --extract-audio --audio-format mp3 
