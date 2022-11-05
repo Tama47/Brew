@@ -38,10 +38,6 @@ Download Video and Subs:
 ```bash
 yt-dlp --embed-thumbnail --write-sub 
 ```
-Download Video and Embed Subs:
-```bash
-yt-dlp --embed-thumbnail --embed-subs 
-```
 Download Thumbnail Only:
 ```bash
 yt-dlp --embed-thumbnail --skip-download 
