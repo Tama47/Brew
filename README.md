@@ -36,15 +36,15 @@ yt-dlp --embed-thumbnail -a list.txt
 ```
 Download Video and Subs:
 ```bash
-yt-dlp --write-sub --embed-thumbnail 
+yt-dlp --embed-thumbnail --write-sub 
 ```
 Download Video and Embed Subs:
 ```bash
-yt-dlp --embed-subs --embed-thumbnail 
+yt-dlp --embed-thumbnail --embed-subs 
 ```
 Download Thumbnail Only:
 ```bash
-yt-dlp --skip-download --embed-thumbnail 
+yt-dlp --embed-thumbnail --skip-download 
 ```
 Download Audio Only (MP3):
 ```bash
