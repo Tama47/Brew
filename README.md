@@ -26,21 +26,13 @@ List Subtitles:
 ```bash
 yt-dlp --list-subs 
 ```
-Download from a list:
-```bash
-yt-dlp -a list.txt
-```
-Download Video and Subtitles:
-```bash
-yt-dlp --write-sub 
-```
-Download Video and Embed Subtitles:
-```bash
-yt-dlp --embed-subs 
-```
-Download Subtitles Only:
+Download Subs Only:
 ```bash
 yt-dlp --skip-download --write-sub 
+```
+Download from list:
+```bash
+yt-dlp --embed-thumbnail -a list.txt
 ```
 Download Thumbnail Only:
 ```bash
@@ -50,7 +42,15 @@ Download Audio Only (MP3):
 ```bash
 yt-dlp --extract-audio --audio-format mp3 
 ```
+Download Video and Subtitles:
+```bash
+yt-dlp --write-sub --embed-thumbnail 
+```
+Download Video and Embed Subtitles:
+```bash
+yt-dlp --embed-subs --embed-thumbnail 
+```
 Download Best Video and Audio (MP4):
 ```bash
-yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]" 
+yt-dlp --embed-thumbnail -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]" 
 ```
