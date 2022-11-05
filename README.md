@@ -12,7 +12,7 @@ mpv --player-operation-mode=pseudo-gui
 ```
 
 ### ffmpeg
-Extract Subtitles:
+Extract Subs:
 ```bash
 ffmpeg -i subs.ass
 ```
