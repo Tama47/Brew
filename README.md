@@ -12,42 +12,41 @@ mpv --player-operation-mode=pseudo-gui
 ```
 
 ### ffmpeg
-Extract Subs:
+Extract Subtitles:
 ```bash
 ffmpeg -i subs.ass
 ```
 
 ### yt-dlp
-List Format:
+List Formats:
 ```bash
 yt-dlp -F 
 ```
-List Subs:
+List Subtitles:
 ```bash
 yt-dlp --list-subs 
 ```
-Download from list:
+Download from a list:
 ```bash
 yt-dlp -a list.txt
 ```
-Download Video and Subs:
+Download Video and Subtitles:
 ```bash
 yt-dlp --write-sub 
 ```
-Download Video and Embed Subs:
+Download Video and Embed Subtitles:
 ```bash
 yt-dlp --embed-subs 
 ```
-Download Subs Only:
+Download Subtitles Only:
 ```bash
 yt-dlp --skip-download --write-sub 
 ```
-Download Audio:
+Download Audio Only (MP3):
 ```bash
 yt-dlp --extract-audio --audio-format mp3 
 ```
-
-Download Best Youtube Video and Audio
+Download Best Video and Audio:
 ```bash
 yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]" 
 ```
