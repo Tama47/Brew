@@ -1,7 +1,10 @@
 --cookies-from-browser chrome
---embed-thumbnail
 --sub-format ass
+--sub-format srt
 --sub-format vtt
+--sub-langs en
 --sub-langs en-US
 --sub-langs english-subs
+--sub-langs th
+--sub-langs tha
 -o ~/Downloads/%(title)s.%(ext)s
