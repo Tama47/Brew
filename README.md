@@ -28,7 +28,7 @@ yt-dlp --list-subs
 ```
 Download Subs Only:
 ```bash
-yt-dlp --skip-download --write-sub 
+yt-dlp --write-sub --skip-download 
 ```
 Download from a list:
 ```bash
