@@ -46,7 +46,7 @@ Download Audio Only (MP3):
 ```bash
 yt-dlp --extract-audio --audio-format mp3 
 ```
-Download Best Video and Audio:
+Download Best Video and Audio (MP4):
 ```bash
 yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]" 
 ```
