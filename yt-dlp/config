@@ -1,0 +1,8 @@
+--add-metadata
+--cookies-from-browser chrome
+--embed-thumbnail
+--sub-format ass
+--sub-format vtt
+--sub-langs en-US
+--sub-langs english-subs
+-o ~/Downloads/%(title)s.%(ext)s
