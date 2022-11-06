@@ -12,6 +12,12 @@ curl ifconfig.me && echo
 speedtest --server-id=50679
 ```
 
+### ffmpeg
+Extract Subs:
+```bash
+ffmpeg -i subs.ass
+```
+
 ### yt-dlp
 List Formats:
 ```bash
