@@ -1,20 +1,15 @@
 # Brew
 
-### speedtest
-```bash
-curl ifconfig.me && echo
-speedtest --server-id=50679
-```
 
 ### mpv
 ```bash
 mpv --player-operation-mode=pseudo-gui
 ```
 
-### ffmpeg
-Extract Subs:
+### speedtest
 ```bash
-ffmpeg -i subs.ass
+curl ifconfig.me && echo
+speedtest --server-id=50679
 ```
 
 ### yt-dlp
