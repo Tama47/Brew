@@ -6,16 +6,16 @@
 mpv --player-operation-mode=pseudo-gui
 ```
 
-### speedtest
-```bash
-curl ifconfig.me && echo
-speedtest --server-id=50679
-```
-
 ### ffmpeg
 Extract Subs:
 ```bash
 ffmpeg -i subs.ass
+```
+
+### speedtest
+```bash
+curl ifconfig.me && echo
+speedtest --server-id=50679
 ```
 
 ### yt-dlp
