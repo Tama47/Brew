@@ -47,15 +47,23 @@ yt-dlp --embed-thumbnail -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]"
 ```
 
 ### ffmpeg
-Extract Subs:
+Convert Video to MP3:
 ```bash
-ffmpeg -i input.mkv subs.ass
+ffmpeg -i input.mkv theme.mp3
+```
+Extract Subtitles:
+```bash
+ffmpeg -i input.mkv output.ass
+```
+Trim Subtitles:
+```bash
+ffmpeg -i input.ass -ss 00:00:00.00 -to 00:00:00.00 output.ass
 ```
 Trim Video (no encode):
 ```bash
-ffmpeg -ss 00:00:00.00 -to 00:00:00.00 -i input.mkv -c copy output.mp4
+ffmpeg -i input.mkv -ss 00:00:00.00 -to 00:00:00.00 -c copy output.mp4
 ```
 Trim Video (re-encode):
 ```bash
-ffmpeg -ss 00:00:00.00 -to 00:00:00.00 -i input.mkv -async 1 output.mp4
+ffmpeg -i input.mkv -ss 00:00:00.00 -to 00:00:00.00 -async 1 output.mp4
 ```
