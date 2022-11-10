@@ -1,15 +1,14 @@
 # Brew
 
-
-### mpv
-```bash
-mpv --player-operation-mode=pseudo-gui
-```
-
 ### speedtest
 ```bash
 curl ifconfig.me && echo
 speedtest --server-id=50679
+```
+
+### mpv
+```bash
+mpv --player-operation-mode=pseudo-gui
 ```
 
 ### yt-dlp
