@@ -49,7 +49,7 @@ yt-dlp --embed-thumbnail -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]"
 ### ffmpeg
 Extract Subs:
 ```bash
-ffmpeg -i subs.ass
+ffmpeg -i input.mkv subs.ass
 ```
 Trim Video:
 ```bash
