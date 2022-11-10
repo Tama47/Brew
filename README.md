@@ -51,7 +51,11 @@ Extract Subs:
 ```bash
 ffmpeg -i input.mkv subs.ass
 ```
-Trim Video:
+Trim Video (no encode):
 ```bash
 ffmpeg -ss 00:00:00.00 -to 00:00:00.00 -i input.mkv -c copy output.mp4
+```
+Trim Video (re-encode):
+```bash
+ffmpeg -ss 00:00:00.00 -to 00:00:00.00 -i input.mkv -async 1 output.mp4
 ```
