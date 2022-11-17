@@ -52,7 +52,7 @@ ffmpeg -i input.mkv theme.mp3
 ```
 Extract Subtitles:
 ```bash
-ffmpeg -i input.mkv output.ass
+ffmpeg -i input.mkv eng.ass
 ```
 Trim Subtitles:
 ```bash
