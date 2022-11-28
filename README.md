@@ -34,7 +34,7 @@ yt-dlp --embed-thumbnail --write-sub
 ```
 Download Thumbnail Only:
 ```bash
-yt-dlp --embed-thumbnail --skip-download 
+yt-dlp --write-thumbnail --skip-download 
 ```
 Download Audio Only (MP3):
 ```bash
