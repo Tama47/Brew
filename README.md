@@ -10,6 +10,9 @@ speedtest --server-id=50679
 ```bash
 mpv --player-operation-mode=pseudo-gui
 ```
+```bash
+mpv --sub-delay=-5.098667
+```
 
 ### yt-dlp
 List Formats:
