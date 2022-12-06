@@ -11,7 +11,7 @@ speedtest --server-id=50679
 mpv --player-operation-mode=pseudo-gui
 ```
 ```bash
-mpv --sub-delay=-5.098667
+mpv --sub-delay=-5.098667 
 ```
 
 ### yt-dlp
