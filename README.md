@@ -14,6 +14,11 @@ mpv --player-operation-mode=pseudo-gui
 mpv --sub-delay=-5.098667 
 ```
 
+### peerflix
+```bash
+peerflix "" -a --mpv
+```
+
 ### yt-dlp
 List Formats:
 ```bash
