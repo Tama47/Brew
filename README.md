@@ -1,9 +1,8 @@
 # Brew
 
-### speedtest
+### peerflix
 ```bash
-curl ifconfig.me && echo
-speedtest --server-id=50679
+peerflix "" -a --mpv
 ```
 
 ### mpv
@@ -14,9 +13,10 @@ mpv --player-operation-mode=pseudo-gui
 mpv --sub-delay=-5.098667 
 ```
 
-### peerflix
+### speedtest
 ```bash
-peerflix "" -a --mpv
+curl ifconfig.me && echo
+speedtest --server-id=50679
 ```
 
 ### yt-dlp
