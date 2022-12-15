@@ -2,7 +2,10 @@
 
 ### peerflix
 ```bash
-peerflix -a --mpv --connection 200 --path ~/Downloads/ ""
+peerflix --connection 200 --path ~/Downloads/ "" -a --mpv
+```
+```bash
+peerflix --connection 200 --path ~/Downloads/ ""
 ```
 
 ### mpv
