@@ -12,8 +12,8 @@ mpv --player-operation-mode=pseudo-gui
 ```bash
 mpv --sub-delay=-5.098667 
 ```
-```bash
 Upscale with Anime4K Mode A for lower-end GPU:
+```bash
 mpv input.mp4 \
 --glsl-shaders="~~/shaders/Anime4K_Clamp_Highlights.glsl:~~/shaders/Anime4K_Restore_CNN_M.glsl:~~/shaders/Anime4K_Upscale_CNN_x2_M.glsl:~~/shaders/Anime4K_AutoDownscalePre_x2.glsl:~~/shaders/Anime4K_AutoDownscalePre_x4.glsl:~~/shaders/Anime4K_Upscale_CNN_x2_S.glsl" \
 --vf=gpu -vf scale=3840:2160 --o=output.mp4
